@@ -30,7 +30,8 @@ LOG_LEVEL = "info"
 LOG_FORMAT = "json"
 NODE_ENV = "production"
 USERNAME = "admin"
-NEXT_PUBLIC_ENABLE_REGISTER=false
+PASSWORD = "bujiaban123"
+NEXT_PUBLIC_ENABLE_REGISTER = "false"
 
 # 预览环境配置
 [env.preview]
@@ -45,7 +46,19 @@ database_id = "9152539c-f412-4721-9b32-f618bc43d074"
 # 预览环境变量
 [env.preview.vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
-NEXT_PUBLIC_SITE_NAME = "JiabnaTV"
-NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
+NEXT_PUBLIC_SITE_NAME = "JiabanTV Preview"
+NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台 - 预览版"
+NEXTAUTH_URL = "https://katelyatv-preview.pages.dev"
 IMAGE_PROXY_ENABLED = "true"
+CACHE_TTL = "3600"
+CORS_ORIGIN = "*"
+RATE_LIMIT_MAX = "100"
+RATE_LIMIT_WINDOW = "60000"
+HEALTH_CHECK_ENABLED = "true"
+HEALTH_CHECK_INTERVAL = "30"
+LOG_LEVEL = "info"
+LOG_FORMAT = "json"
 NODE_ENV = "production"
+USERNAME = "admin"
+PASSWORD = "your_secure_password_here"
+NEXT_PUBLIC_ENABLE_REGISTER = "false"
