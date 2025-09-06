@@ -30,7 +30,6 @@ LOG_LEVEL = "info"
 LOG_FORMAT = "json"
 NODE_ENV = "production"
 USERNAME = "admin"
-PASSWORD = "bujiaban123"
 NEXT_PUBLIC_ENABLE_REGISTER = "false"
 
 # 预览环境配置
@@ -60,5 +59,4 @@ LOG_LEVEL = "info"
 LOG_FORMAT = "json"
 NODE_ENV = "production"
 USERNAME = "admin"
-PASSWORD = "your_secure_password_here"
 NEXT_PUBLIC_ENABLE_REGISTER = "false"
